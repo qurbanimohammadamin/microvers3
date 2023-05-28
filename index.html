@@ -3,12 +3,130 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"type="text/css"href="css/bootstrap.css">
+<link rel="stylesheet"type="text/css"href="css/style.css">
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
   </head>
 
   <body>
+    <div class="content">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+          <h1 class="title">freeCodeCamp Survey Form</h1>
+          <h3 class="subtitle">Thank you for taking the time to help us improve the platform</h3>
 
-    <p>Hello World!</p>
+          <form class="form" action="index.html" method="post">
+           <div class="form-group">
+             <label for="name" class="lebal">Name</label>
+             <input type="text" name=""id = "name"class="form-control" value=""placeholder="Inter the name">
+
+             <label for="email" class="lebal">Email</label>
+             <input type="text" name=""id = "email"class="form-control" value=""placeholder="Inter the email">
+
+             <label for="email" class="age">Age</label>
+             <input type="number" name=""id = "email"class="form-control" value=""placeholder="Age">
+
+             <div class="form-group">
+                <label for="sel1">Which option best describes your current role?</label>
+                  <select class="form-control" id="sel1">
+                    <option>student</option>
+                    <option>full time job</option>
+                    <option>full time learner</option>
+                    <option>per not stay</option>
+                    <option>other</option>
+                  </select>
+   </div>
+   Would you recommend freeCodeCamp to a friend?
+   <div class="form-check-inline">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Definitely
+  </label>
+</div>
+<div class="form-check-inline">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Maybe
+  </label>
+</div>
+<div class="form-check-inline disabled">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" disabled>Not sure
+  </label>
+</div>
+
+           </div>
+           <div class="form-group">
+              <label for="sel1">What is your favorite feature of freeCodeCamp?</label>
+                <select class="form-control" id="sel1">
+                  <option>chalanges</option>
+                  <option>projects</option>
+                  <option>comunity</option>
+
+                </select>
+                What would you like to see improved? (Check all that apply)
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Front-end Projects
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Back-end Projects
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="" disabled>Data Visualization
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Front-end Projects
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Back-end Projects
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="" disabled>Data Visualization
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Front-end Projects
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Back-end Projects
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="" disabled>Data Visualization
+                  </label>
+                </div>
+                <label for="email" class="age">Any comments or suggestions?</label>
+         <textarea class="form-control"placeholder="inter your comment here" rows="5" id="comment"></textarea>
+<br>
+         <input type="submit" name=""id = "name" value="submit" class="form-control" value=""placeholder="Inter the name">
+
+          </form>
+
+        </div>
+        <div class="col-xs-2"></div>
+
+
+    </div>
+
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
